@@ -1,0 +1,11 @@
+# Folders
+
+/.usermin
+/.vscode
+/assets/scripts/
+/assets/scripts/cron
+/assets/scripts/phpmailer
+
+# Files
+
+.htaccess
