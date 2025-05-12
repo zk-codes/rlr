@@ -1,0 +1,4 @@
+Sitemap: https://zacharykai.net/sitemap.xml
+
+User-agent: *
+Allow: /

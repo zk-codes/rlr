@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+    :root {
+      --content-width: 700px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    body {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr auto;
+    }
+    
+    .side-nav {
+      width: 100%;
+      height: auto;
+      grid-column: 1;
+      grid-row: 1;
+    }
+    
+    main {
+      padding: 1.5rem;
+      grid-column: 1;
+      grid-row: 2;
+    }
+    
+    footer {
+      grid-column: 1;
+      grid-row: 3;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    html {
+      font-size: 16px;
+    }
+    
+    .main-content {
+      padding: 1.5rem;
+    }
+  }
